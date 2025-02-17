@@ -17,18 +17,59 @@
       "dueDate": "2024-08-25",
       "userId": 2,
       "categoryId": 1
+    },
+    {
+      "id": 3,
+      "title": "Schedule dentist appointment",
+      "description": "Annual check-up",
+      "completed": false,
+      "dueDate": "2024-09-15",
+      "userId": 1,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "title": "Pay electricity bill",
+      "description": "Online payment",
+      "completed": true,
+      "dueDate": "2024-08-10",
+      "userId": 3,
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "title": "Book flight tickets to Goa",
+      "description": "For the family vacation",
+      "completed": false,
+      "dueDate": "2024-10-20",
+      "userId": 2,
+      "categoryId": 3
+    },
+    {
+      "id": 6,
+      "title": "Review presentation slides",
+      "description": "For the upcoming conference",
+      "completed": false,
+      "dueDate": "2024-09-05",
+      "userId": 1,
+      "categoryId": 1
     }
   ],
   "users": [
     {
       "id": 1,
       "name": "User 1",
-      "email": "user1@example.com" 
+      "email": "user1@example.com"
     },
     {
       "id": 2,
       "name": "User 2",
       "email": "user2@example.com"
+    },
+    {
+      "id": 3,
+      "name": "User 3",
+      "email": "user3@example.com"
     }
   ],
   "categories": [
@@ -39,6 +80,14 @@
     {
       "id": 2,
       "name": "Personal"
+    },
+    {
+      "id": 3,
+      "name": "Travel"
+    },
+    {
+      "id": 4,
+      "name": "Household"
     }
   ]
 }
