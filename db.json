@@ -1,1 +1,44 @@
-
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy groceries",
+      "description": "Milk, bread, eggs, and fruits",
+      "completed": false,
+      "dueDate": "2024-08-30",
+      "userId": 1,
+      "categoryId": 2
+    },
+    {
+      "id": 2,
+      "title": "Finish project report",
+      "description": "Complete the report for the quarterly project",
+      "completed": true,
+      "dueDate": "2024-08-25",
+      "userId": 2,
+      "categoryId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "email": "user1@example.com" 
+    },
+    {
+      "id": 2,
+      "name": "User 2",
+      "email": "user2@example.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Work"
+    },
+    {
+      "id": 2,
+      "name": "Personal"
+    }
+  ]
+}
